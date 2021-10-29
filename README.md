@@ -16,3 +16,6 @@ cmd mvn clean install
 
 
 ![image](https://user-images.githubusercontent.com/93327018/139401811-e63c3402-30fd-469d-8a31-6e0535299816.png)
+
+
+Improvements: Feature file parallel Execution and scenario parallel execution using testng, test data in source file, integrate with test management tools.

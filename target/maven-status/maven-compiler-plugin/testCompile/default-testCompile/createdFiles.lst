@@ -1,0 +1,5 @@
+com\demo\app\test\stepdef\AppHooks.class
+com\demo\app\test\reusable\ReadProperties.class
+com\demo\app\test\stepdef\ApplicationsStepsDefinition.class
+com\demo\app\test\reusable\CommonUtils.class
+com\demo\app\test\runner\AppTestRunner.class

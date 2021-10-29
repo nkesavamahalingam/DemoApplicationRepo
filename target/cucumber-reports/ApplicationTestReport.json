@@ -1,0 +1,164 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13592365700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify_Customer_Add_The_Product_In_Wishlist_And_Add_To_Cart_TC_001",
+        "description": "",
+        "id": "application-test---add-products-to-wishlist;verify-customer-add-the-product-in-wishlist-and-add-to-cart-\u003ctc-id\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1077713599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4133079500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add \"4\" different products to my wishlist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 7
+                }
+              ],
+              "location": "ApplicationsStepsDefinition.i_add_different_product_to_my_wish_list(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1061444300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I view my wishlist table",
+            "match": {
+              "location": "ApplicationsStepsDefinition.i_view_my_wishlist_table()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 583954600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I find total \"4\" selected items in my wishlist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 14
+                }
+              ],
+              "location": "ApplicationsStepsDefinition.i_find_total_selected_items_in_my_Wishlist(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 828275501,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for \"lowest\" price product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lowest",
+                  "offset": 14
+                }
+              ],
+              "location": "ApplicationsStepsDefinition.i_search_for_price_product(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1003475300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am able to add the \"lowest\" price item to my cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lowest",
+                  "offset": 22
+                }
+              ],
+              "location": "ApplicationsStepsDefinition.i_am_able_to_add_the_price_item_to_my_cart(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1105954400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am able to verify the item in my cart",
+            "match": {
+              "location": "ApplicationsStepsDefinition.i_am_able_to_verify_the_item_in_my_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@apptest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Test - Add products to wishlist",
+    "description": "",
+    "id": "application-test---add-products-to-wishlist",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/addProducts.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@apptest"
+      }
+    ]
+  }
+]

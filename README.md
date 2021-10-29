@@ -12,6 +12,7 @@ To install the dependencies, run the following command in the project's base fol
 
 cmd mvn clean install
 
-![image](https://user-images.githubusercontent.com/93327018/139401668-3582484b-95c9-43c9-aa47-481cf02efbf9.png)
+![image](https://user-images.githubusercontent.com/93327018/139402006-316922c4-fe5f-4817-9387-906970f4c2f0.png)
+
 
 ![image](https://user-images.githubusercontent.com/93327018/139401811-e63c3402-30fd-469d-8a31-6e0535299816.png)

@@ -11,3 +11,7 @@ Install the dependencies
 To install the dependencies, run the following command in the project's base folder
 
 cmd mvn clean install
+
+![image](https://user-images.githubusercontent.com/93327018/139401668-3582484b-95c9-43c9-aa47-481cf02efbf9.png)
+
+![image](https://user-images.githubusercontent.com/93327018/139401811-e63c3402-30fd-469d-8a31-6e0535299816.png)
